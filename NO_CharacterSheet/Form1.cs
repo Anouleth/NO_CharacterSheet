@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace NO_CharacterSheet
 {
-    public partial class Form1 : Form
+    public partial class NO_MainForm : Form
     {
-        public Form1()
+        public NO_MainForm()
         {
             InitializeComponent();
+        }
+
+        private void NO_MainForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
